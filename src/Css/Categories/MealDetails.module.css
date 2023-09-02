@@ -1,0 +1,84 @@
+.container {
+  padding: 85px 60px 10px 60px;
+  min-height: 85.8vh;
+  background: #eeeeee;
+}
+
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.backtocategories {
+  border-radius: 5px;
+  padding: 6px;
+  background: #ffc14c;
+  color: #fff;
+  transition: all 1s;
+}
+
+.backtocategories:hover {
+  background: #e89a08;
+}
+
+.header {
+  width: 100%;
+  text-align: center;
+}
+
+.Img {
+  width: 36vh;
+  margin: 10px;
+  border: 2px solid black;
+  border-radius: 20px;
+}
+ 
+a .Img:hover {
+  mask-image: url(/src/assets/svg/youtube.svg);
+  mask-size: contain;
+}
+
+.ingredient {
+  color: #fff;
+  background: #fdb52f;
+  padding: 1rem;
+  border-radius: 15px;
+}
+
+.prepartion {
+  width: 120vh;
+  margin: 10px;
+  border: 2px solid #4c4b4b3c;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.prepartionHead {
+  margin-bottom: 20px;
+  font-size: medium;
+  text-align: center;
+}
+
+@media only screen and (min-width: 500px) {
+  
+  .Img {
+    width: 50vh;
+  }
+  .backtocategories {
+    margin: 0 4rem;
+  }
+  
+}
+
+@media only screen and (min-width: 973px) {
+  .container {
+    padding: 90px 60px 10px 60px;
+  }
+  .backtocategories {
+    margin: 0 20rem;
+  }
+  
+}

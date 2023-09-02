@@ -1,0 +1,38 @@
+.container {
+  padding: 85px 40px 10px 40px;
+}
+
+.categoryContainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  min-height: 85.8vh;
+}
+
+.backtocategories {
+  border-radius: 5px;
+  padding: 6px;
+  background: #ffc14c;
+  color: #fff;
+  transition: all 800ms;
+}
+
+.backtocategories:hover {
+  background: #e89a08;
+}
+
+.Header {
+  width: 100%;
+  text-align: center;
+  font-size: x-large;
+  margin: 0.7rem 0;
+}
+
+@media only screen and (min-width: 520px) {
+  .backtocategories {
+    margin: 0 7rem;
+  }
+  .container {
+    padding: 90px 60px 10px 60px;
+  }
+}

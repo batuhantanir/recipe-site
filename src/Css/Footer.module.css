@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 35px 60px;
+  background: #212529;
+  color: #fff;
+}
+
+.mapList {
+  display: flex;
+}
+
+.mapItem {
+  margin-right: 0.6rem;
+  font-weight: 600;
+}
+
+.mapItem a {
+  color: white;
+}
+.mapItem a:hover {
+}
+
+.icons svg {
+  cursor: pointer;
+  font-size: larger;
+  margin: 0.4rem 0 0 0.4rem;
+}
+
+.icons a{
+  color: white;
+}

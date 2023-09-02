@@ -1,0 +1,29 @@
+.Card {
+  margin: 0.2rem;
+  border: 1px solid;
+  border-radius: 50px;
+  width: 33vh;
+  height: 33vh;
+  overflow: hidden;
+  background: #212529;
+}
+
+.Link{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 33vh;
+}
+
+.Img {
+  border: 2px solid white;
+  border-radius: 50%;
+  margin: 8px;
+  width: 75%;
+}
+
+.Header {
+  text-align: center;
+  padding: 5px 50px;
+  color: white;
+}

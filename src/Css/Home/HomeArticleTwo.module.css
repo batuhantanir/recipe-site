@@ -1,0 +1,31 @@
+.HomeArticlTwoContainer {
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 3vh;
+}
+
+.HomeArticleTwoH3 {
+  font-weight: bolder;
+  margin-bottom: 5px;
+}
+
+.HomeArticleTwoH4 {
+  color: #59c186;
+  font-weight: 500;
+  margin-bottom: 25px;
+}
+
+.HomeArticleTwoP {
+  font-weight: 600;
+}
+
+@media only screen and (min-width: 612px) {
+
+.HomeArticlTwoContainer {
+  padding: 16vh;
+
+}
+
+}

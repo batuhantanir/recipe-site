@@ -1,0 +1,36 @@
+.HomeArticlOneContainer {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+  padding: 20px 0;
+  background-color: #212529;
+}
+
+.HomeArticleOneH2 {
+  position: relative;
+  top: 20%;
+  color: #fff;
+  font-size: 300%;
+  width: 80%;
+}
+
+.HomeArticleOneImg {
+  height: 40%;
+  position: relative;
+  margin: 50%;
+}
+@media only screen and (min-width: 612px) {
+  /* For tablets: */
+
+  .HomeArticleOneImg {
+    height: 80%;
+    margin: 20%;
+  }
+  
+.HomeArticleOneH2 {
+  width: 50%;
+  font-size: 500%;
+}
+}

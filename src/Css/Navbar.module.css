@@ -1,0 +1,91 @@
+/*Mobile Menu*/
+.navbarContainer {
+  padding: 10px 30px;
+  z-index: 1;
+  background: #212529;
+  position: fixed;
+  width: 100%;
+  padding-bottom: 25px;
+}
+.navbarBrand a {
+  font-size: 30px;
+  font-weight: bold;
+  color: #ffc14c;
+}
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.menuItem {
+  padding: 5px 10px;
+  width: 100%;
+  text-align: center;
+  order: 2;
+  display: none;
+}
+.menuItem a {
+  color: #fff;
+}
+.active {
+  display: block;
+}
+.toogle {
+  width: fit-content;
+  order: 1;
+  cursor: pointer;
+}
+.bars {
+  position: relative;
+  display: inline-block;
+  background: #ffc14c;
+  height: 2px;
+  width: 18px;
+}
+.bars::before,
+.bars::after {
+  position: absolute;
+  content: "";
+  display: inline-block;
+  background: #ffc14c;
+  height: 2px;
+  width: 18px;
+  cursor: pointer;
+}
+.bars::after {
+  top: -5px;
+}
+.bars::before {
+  top: 5px;
+  height: 2.5px;
+}
+
+@media only screen and (min-width: 612px) {
+  /* For tablets: */
+  .navbarContainer {
+    padding: 20px 60px;
+  }
+  .menu {
+    text-decoration: none;
+    transition: all 0.8s;
+  }
+  .navbarBrand {
+    flex: 5;
+  }
+  .menuItem {
+    width: auto;
+    transition: all 0.8s;
+    border-radius: 50px;
+    display: block;
+  }
+  .menuItem:hover {
+    transform: scale(1.2);
+  }
+  .menu li:hover a {
+    color: #ffc14c;
+  }
+  .bars {
+    display: none;
+  }
+}
